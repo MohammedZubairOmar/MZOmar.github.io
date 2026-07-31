@@ -1,427 +1,341 @@
 <!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3NXGDLJWEB"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="en">
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3NXGDLJWEB"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'G-3NXGDLJWEB');
+	</script>
 
-  gtag('config', 'G-3NXGDLJWEB');
-</script>
-		<title>MZ Omar Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+	<title>Mohammed Zubair Omar — Senior Business Intelligence Business Analyst</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="Mohammed Zubair Omar — Senior Business Intelligence Business Analyst &amp; Team Lead. SQL, DAX, Power Query, dimensional modeling and stakeholder-led BI delivery, told chapter by chapter." />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+	<canvas id="bg-canvas" aria-hidden="true"></canvas>
 
-				<!-- Header -->
-					<header id="header">
-						<div class="logo">
-							<span class="icon fa-gem"></span>
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Mohammed Zubair Omar</h1>
-								<h2>Data/Business Analyst</h2>
-								<p> Skilled in Excel, VBA, SQL, Power BI <a href="https://www.linkedin.com/in/mzubairomar/">@MZOmar</a> <br />
-								</p>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#about">About Me</a></li>
-								<li><a href="#Skills">Skills</a></li>
-								<li><a href="#Certifications">Certifications</a></li>
-								<li><a href="#Projects">Projects</a></li>
-								<li><a href="#contact">Contact</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+	<div id="hud-frame" aria-hidden="true">
+		<span class="tl"></span><span class="tr"></span><span class="bl"></span><span class="br"></span>
+	</div>
 
-				<!-- Main -->
-					<div id="main">
+	<header id="site-header">
+		<button class="menu-toggle" aria-haspopup="true" aria-controls="nav-overlay">
+			<span class="bars"><span></span><span></span><span></span></span>
+			Menu
+		</button>
+		<a href="#hero" class="logo-mark">MZO</a>
+		<a href="#contact" class="nav-utility"><span class="dot">&#9670;</span> Contact</a>
+	</header>
 
-						<!-- Projects -->
-							<article id="Projects">
-								<h2 class="major"><a href="https://github.com/MohammedZubairOmar/PortfolioProjects">Projects</a></h2>
-								<h3 style="text-align: center;"> Coffee Sales Dashboard </h3>
-								<span class="image main"><img src="images/Coffee-Solutions.jpg" alt="" /></span>
-								<p>In this project I use Excel to create a Dashboard of Coffee Sales and show highlights of Top Countries and Customers. This dataset contained orders, products and customer data. </p>
+	<nav id="chapter-index" aria-hidden="true">
+		<span class="dot"></span>
+		<span class="label">Intro</span>
+	</nav>
 
-								<ul class="actions">
-									<li><a href="https://github.com/MohammedZubairOmar/PortfolioProjects/blob/main/coffeeOrdersProject.xlsx" class="button small">View Project</a></li>
-								</ul>
+	<div id="nav-overlay">
+		<button class="nav-close">Close &#10005;</button>
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#credentials">Credentials</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="nav-social">
+			<a href="https://www.linkedin.com/in/mzubairomar/" class="fab fa-linkedin" aria-label="LinkedIn"></a>
+			<a href="https://github.com/MohammedZubairOmar/PortfolioProjects" class="fab fa-github" aria-label="GitHub"></a>
+		</div>
+	</div>
 
-								<h3 style="text-align: center;"> Data Cleaning in SQL</h3>
-								<span class="image main"><img src="images/Data Cleaning.jpg" alt="" /></span>
-								<p>In this Project I used RAW housing data to transform it in SQL and make it more usable and understandable for analysis.</p>
-							
-								<ul class="actions">
-									<li><a href="https://github.com/MohammedZubairOmar/PortfolioProjects/blob/main/Nashville%20Housing%20-%20Data%20Cleaning.sql" class="button small">View Project</a></li>
-								</ul>
+	<main>
 
-								<h3 style="text-align: center;">Currency Converter</h3>
-								<span class="image main"><img src="images/currency converter.png" alt="" /></span>
-								<p>In this Project I use Python and a Currency API to convert different currencies and return the converted amount.</p>
-							
-								<ul class="actions">
-									<li><a href="https://github.com/MohammedZubairOmar/PortfolioProjects/blob/main/Currency.py" class="button small">View Project</a></li>
-								</ul>
+		<!-- Hero -->
+		<section id="hero" class="chapter chapter-hero" data-chapter="Intro">
+			<div class="chapter-inner">
+				<span class="eyebrow reveal">Senior BI Business Analyst &middot; Team Lead</span>
+				<h1 class="headline reveal">Mohammed<br />Zubair Omar</h1>
+				<p class="subtext reveal">3+ years turning business needs into testable BI solutions &mdash; built with SQL, DAX, Power Query and a healthy obsession with getting the data model right.</p>
+				<div class="actions-row reveal" style="justify-content: center;">
+					<a href="#projects" class="btn-ribbon">Explore the work</a>
+					<a href="#about" class="btn-ghost">Begin the story</a>
+				</div>
+			</div>
+			<div class="scroll-cue"><span class="line"></span>Scroll</div>
+		</section>
 
-								<h3 style="text-align: center;"> New Project Coming Soon!</h3>
-								<span class="image main"><img src="images/Loadingscreen.gif" alt="" /></span>
-								<p></p>
-							
-								<!--<ul class="actions">
-									<li><a href="https://github.com/MohammedZubairOmar/PortfolioProjects/blob/main/Nashville%20Housing%20-%20Data%20Cleaning.sql" class="button small">View Project</a></li>
-								</ul>-->
+		<!-- About -->
+		<section id="about" class="chapter chapter-about" data-chapter="About">
+			<div class="chapter-inner">
+				<span class="eyebrow reveal">The Origin</span>
+				<h2 class="headline reveal">About Me</h2>
+				<p class="subtext reveal">A senior BI business analyst who believes every dataset has a story worth telling.</p>
 
-							</article>
+				<div class="about-grid">
+					<div class="about-photo reveal">
+						<img src="images/1692087112961.jpg" alt="Mohammed Zubair Omar" />
+						<span class="tl"></span><span class="br"></span>
+					</div>
+					<div class="about-copy reveal">
+						<p>I'm a Senior Business Intelligence Business Analyst and Team Lead with 3+ years of delivery experience across reporting, dimensional data modeling, and stakeholder-led solution design. I translate business needs into testable BI requirements &mdash; developing source-to-target mappings, validating transformation logic, and building high-performance Excel and Power BI datasets with DAX and Power Query (M).</p>
+						<p>My path started in IT support and asset management, moved through data and business analysis, and led to leading a team of analysts today &mdash; facilitating stakeholder workshops, defining KPIs and business rules, and guiding dashboards from requirement to release.</p>
+						<p>I hold a B.Com in Information Technology Management and I'm currently completing a Postgraduate Diploma in Business Management, both through MANCOSA, alongside certifications spanning Azure, Power Platform, advanced Excel and data analysis.</p>
+						<p>Explore the experience and projects below to see that work in practice, and get in touch if you'd like to collaborate.</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-						<!-- About -->
-							<article id="about">
-								<h2 class="major">About Me</h2>
-								<span class="image main"><img src="images/1692087112961.jpg" alt="" /></span>
-								<p>Welcome to my portfolio. My name is Mohammed Zubair Omar, I am a dedicated and skilled Business Analyst with a strong background in leveraging data to drive business efficiency and insights. My expertise spans across various industries, where I specialize in data analysis, process automation, and business process improvement.</p>
-								<p> With a degree in Information Technology and several industry-specific certifications, I have developed a robust understanding of analyzing business processes, optimizing workflows, and creating data-driven strategies. My proficiency in tools like Excel, VBA, and Power Platform enables me to deliver automated reporting systems, custom solutions, and insightful data visualizations.</p>
-								<p>I am passionate about finding innovative solutions to complex business problems and continuously improving operational efficiency. Whether you're looking to streamline your business processes, automate routine tasks, or gain deeper insights from your data, I am here to help.</p>
-								<p>Feel free to explore my projects to see some of the work I have done, and don't hesitate to contact me if you have any questions or if you are interested in collaborating on a project.</p>
-								<p>Thank you for visiting my portfolio.</p>
-							</article>
+		<!-- Experience -->
+		<section id="experience" class="chapter chapter-experience" data-chapter="Experience">
+			<div class="chapter-inner">
+				<span class="eyebrow reveal">The Journey</span>
+				<h2 class="headline reveal">Experience</h2>
+				<p class="subtext reveal">From IT support to leading a BI analyst team &mdash; three years of shipping reporting that stakeholders actually trust.</p>
 
-						<!-- Skills -->
-						<article id="Skills">
-							<h2 class="major">Skills</h2>
-							<span class="image main"><img src="images/Black White Minimalist SImple Monogram Typography Logo.jpg" alt="" /></span>
-							<h3>Soft Skills:</h3>
-							<ul>
-							<li>Analytical Thinking</li>
-							<li>Problem-Solving</li>
-							<li>Communication</li>
-							<li>Teamwork</li>
-							<li>Project Management</li>
-						   	</ul>
-							<h3>Technical Skills:</h3>
-							<ul>
-							<li>Excel (Advanced)</li>
-							<li>VBA (Intermediate)</li>
-							<li>Power Platform (Intermediate)</li>
-							<li>Asset Management</li>
-							<li>Data Visualization (Power BI/Excel Dashboards)</li>
-							<li>SQL (Intermediate)</li>
-							<li>SharePoint</li>
-							<li>Python (Beginner)</li>
-							</ul>						
-						</article>	
-
-						<!-- Certifications -->
-						<article id="Certifications">
-							<h2 class="major">Certifications</h2>
-							<span class="image main"><img src="images/Black White Minimalist SImple Monogram Typography Logo.jpg" alt="" /></span>
-							<h3>Certifications:</h3>
-							<ul>
-							<li>Excel (Beginner - Advanced)</li>
-							<li>Microsoft Certified: PL900 (Power Platform)</li>
-							<li>Microsoft Certified: AZ900 (Azure Fundamentals)</li>
-							<!--<li></li>
-							<li></li>
-							<li></li>-->
-							</ul> 
-							<h3>Short Courses:</h3>
-							<ul>
-							<li>Introduction to Information and Data Management Systems (Regent business School)</li>
-							<li>Introduction to Big Data (Regent business School)</li>
-							<li></li>	
-							</ul>
-						</article>	
-
-						<!-- Contact -->
-							<article id="contact">
-								<h2 class="major">Contact Details</h2>
-								<p>Email: <a href="mailto:mohammedzubairomar@gmail.com
-									">mohammedzubairomar@gmail.com</a></p>
-								<p>Location: Johannesburg, South Africa</p>
-								
-									<ul class="icons">
-									<li><a href="https://www.linkedin.com/in/mzubairomar/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									<li><a href="https://github.com/MohammedZubairOmar/PortfolioProjects" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="https://whop.com/automagic-designs" class="icon brands fa-book"><span class="label">Whop Store</span></a></li>
-								</ul>
-							</article>
-
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
-
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
-								<section>
-									<h3 class="major">Lists</h3>
-
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
-
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
-
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
-
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
-
-							</article>
-
+				<div class="timeline">
+					<div class="timeline-item reveal">
+						<h3 class="timeline-role">Senior Business Analyst (Team Lead)</h3>
+						<p class="timeline-meta">Europcar South Africa &middot; Oct 2025 &ndash; Present</p>
+						<ul>
+							<li>Lead initiatives across business reporting and operational analytics</li>
+							<li>Facilitate stakeholder workshops and translate requirements into structured user stories</li>
+							<li>Define and validate KPIs, metric definitions, and business rules</li>
+							<li>Validate source-to-target mappings, transformation logic, and Row-Level Security (RLS)</li>
+							<li>Guide dashboard usability and performance optimization; support Agile ceremonies and mentor junior analysts</li>
+							<li>Drive Sales Forecasting, Budget Creation, and Rebate Calculations</li>
+						</ul>
 					</div>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p> Web Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-					</footer>
+					<div class="timeline-item reveal">
+						<h3 class="timeline-role">Data / Business Analyst</h3>
+						<p class="timeline-meta">Europcar South Africa &middot; Jan 2024 &ndash; Sept 2025</p>
+						<ul>
+							<li>Designed automated reporting solutions using SQL, Power BI, and Excel VBA</li>
+							<li>Performed data profiling and reconciliation to resolve quality issues</li>
+							<li>Developed optimized Power BI datasets with DAX and Power Query, including incremental refresh configuration</li>
+							<li>Created functional specifications and mapping documentation</li>
+							<li>Supported UAT testing and stakeholder training</li>
+						</ul>
+					</div>
 
+					<div class="timeline-item reveal">
+						<h3 class="timeline-role">IT Specialist</h3>
+						<p class="timeline-meta">Europcar South Africa &middot; May 2022 &ndash; Dec 2023</p>
+						<ul>
+							<li>Provided technical support and system administration</li>
+							<li>Developed internal asset management solutions using Power Platform</li>
+							<li>Supported infrastructure stability and governance compliance initiatives</li>
+						</ul>
+					</div>
+
+					<div class="timeline-item reveal">
+						<h3 class="timeline-role">Future Fit Associate &ndash; Digital &amp; IT</h3>
+						<p class="timeline-meta">Imperial Logistics &middot; Mar 2020 &ndash; Feb 2022</p>
+						<ul>
+							<li>Delivered Power BI dashboards for logistics performance reporting</li>
+							<li>Conducted SQL-based analysis and data validation</li>
+							<li>Participated in digital transformation initiatives</li>
+							<li>Delivered geo-coding and data-capturing solutions that improved logistics efficiency</li>
+						</ul>
+					</div>
+				</div>
 			</div>
+		</section>
 
-		<!-- BG -->
-			<div id="bg"></div>
+		<!-- Skills -->
+		<section id="skills" class="chapter chapter-skills" data-chapter="Skills">
+			<div class="chapter-inner">
+				<span class="eyebrow reveal">The Toolkit</span>
+				<h2 class="headline reveal">Skills</h2>
+				<p class="subtext reveal">The methods and tools behind every dashboard, workflow and report.</p>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+				<div class="skill-group reveal">
+					<h3>Soft Skills</h3>
+					<div class="tag-row">
+						<span class="tag">Analytical Thinking</span>
+						<span class="tag">Problem-Solving</span>
+						<span class="tag">Communication</span>
+						<span class="tag">Teamwork</span>
+						<span class="tag">Project Management</span>
+						<span class="tag">Stakeholder Management</span>
+						<span class="tag">Mentoring</span>
+					</div>
+				</div>
 
-	</body>
+				<div class="skill-group reveal">
+					<h3>Business Analysis &amp; Requirements</h3>
+					<div class="tag-row">
+						<span class="tag">Requirements Elicitation</span>
+						<span class="tag">User Stories &amp; Acceptance Criteria</span>
+						<span class="tag">KPI Definition &amp; Business Rule Validation</span>
+						<span class="tag">Traceability Matrix Management</span>
+					</div>
+				</div>
+
+				<div class="skill-group reveal">
+					<h3>Data &amp; Modeling</h3>
+					<div class="tag-row">
+						<span class="tag">SQL &mdash; Advanced</span>
+						<span class="tag">Dimensional Modeling (Kimball / Star Schema)</span>
+						<span class="tag">Source-to-Target Mappings</span>
+						<span class="tag">ETL / ELT Fundamentals</span>
+						<span class="tag">Data Quality Assessment</span>
+					</div>
+				</div>
+
+				<div class="skill-group reveal">
+					<h3>Excel &amp; Power BI</h3>
+					<div class="tag-row">
+						<span class="tag">DAX &mdash; Measures &amp; Calculated Tables</span>
+						<span class="tag">Power Query (M)</span>
+						<span class="tag">Relationship Modeling</span>
+						<span class="tag">Row-Level Security (RLS)</span>
+						<span class="tag">Incremental Refresh</span>
+						<span class="tag">Import / DirectQuery / Composite Models</span>
+						<span class="tag">Excel &mdash; Advanced</span>
+						<span class="tag">VBA &mdash; Intermediate</span>
+					</div>
+				</div>
+
+				<div class="skill-group reveal">
+					<h3>Governance, Delivery &amp; Platforms</h3>
+					<div class="tag-row">
+						<span class="tag">Data Dictionary &amp; Business Glossary</span>
+						<span class="tag">UAT &amp; Regression Testing</span>
+						<span class="tag">Version Control &amp; Deployment Coordination</span>
+						<span class="tag">Power Platform</span>
+						<span class="tag">SharePoint</span>
+						<span class="tag">Asset Management</span>
+						<span class="tag">Python &mdash; Beginner</span>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Credentials -->
+		<section id="credentials" class="chapter chapter-credentials" data-chapter="Credentials">
+			<div class="chapter-inner">
+				<span class="eyebrow reveal">The Proof</span>
+				<h2 class="headline reveal">Credentials</h2>
+				<p class="subtext reveal">Certifications earned along the way, and the education underpinning them.</p>
+
+				<div class="cert-columns">
+					<div class="reveal">
+						<h3>Certifications</h3>
+						<ul class="cert-list">
+							<li>Microsoft Certified: AZ-900 (Azure Fundamentals)</li>
+							<li>Microsoft Certified: PL-900 (Power Platform Fundamentals)</li>
+							<li>Advanced Excel (Level 3) &mdash; SPECCON</li>
+							<li>Corporate Excel Training (Levels 1 &amp; 2)</li>
+							<li>Project Management &mdash; Imperial Logistics</li>
+							<li>Compliance: Global Anti-Corruption / Anti-Bribery</li>
+							<li>UCT &mdash; Data Analysis</li>
+							<li>IBM &mdash; AI Developer</li>
+						</ul>
+					</div>
+					<div class="reveal">
+						<h3>Education</h3>
+						<ul class="cert-list">
+							<li>Postgraduate Diploma in Business Management (In Progress) &mdash; MANCOSA</li>
+							<li>B.Com Information Technology Management (2017 &ndash; 2019) &mdash; MANCOSA</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section id="projects" class="chapter chapter-projects" data-chapter="Projects">
+			<div class="chapter-inner">
+				<span class="eyebrow reveal">The Work</span>
+				<h2 class="headline reveal">Projects</h2>
+				<p class="subtext reveal">A few hands-on examples of turning raw data into something usable.</p>
+
+				<div class="project-grid">
+					<div class="project-card reveal">
+						<div class="project-thumb"><img src="images/Coffee-Solutions.jpg" alt="Coffee Sales Dashboard" /></div>
+						<div class="project-body">
+							<h3>Coffee Sales Dashboard</h3>
+							<p>An Excel dashboard built from raw orders, products and customer data &mdash; surfacing top countries and top customers at a glance.</p>
+							<a href="https://github.com/MohammedZubairOmar/PortfolioProjects/blob/main/coffeeOrdersProject.xlsx" class="btn-ribbon">View Project</a>
+						</div>
+					</div>
+
+					<div class="project-card reveal">
+						<div class="project-thumb"><img src="images/Data Cleaning.jpg" alt="Data Cleaning in SQL" /></div>
+						<div class="project-body">
+							<h3>Data Cleaning in SQL</h3>
+							<p>Raw Nashville housing data transformed in SQL into a clean, analysis-ready dataset.</p>
+							<a href="https://github.com/MohammedZubairOmar/PortfolioProjects/blob/main/Nashville%20Housing%20-%20Data%20Cleaning.sql" class="btn-ribbon">View Project</a>
+						</div>
+					</div>
+
+					<div class="project-card reveal">
+						<div class="project-thumb"><img src="images/currency converter.png" alt="Currency Converter" /></div>
+						<div class="project-body">
+							<h3>Currency Converter</h3>
+							<p>A Python tool that calls a live currency API to convert between currencies on demand.</p>
+							<a href="https://github.com/MohammedZubairOmar/PortfolioProjects/blob/main/Currency.py" class="btn-ribbon">View Project</a>
+						</div>
+					</div>
+
+					<div class="project-card is-placeholder reveal">
+						<h3>Next Chapter Coming Soon</h3>
+						<p>A new project is in the works.</p>
+					</div>
+				</div>
+
+				<div class="projects-footer reveal">
+					<a href="https://github.com/MohammedZubairOmar/PortfolioProjects" class="btn-ghost">View all on GitHub &rarr;</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- Contact -->
+		<section id="contact" class="chapter chapter-contact" data-chapter="Contact">
+			<div class="chapter-inner">
+				<span class="eyebrow reveal">The Next Chapter</span>
+				<h2 class="headline reveal">Let's Connect</h2>
+				<p class="subtext reveal">Have a data problem worth solving? Let's talk.</p>
+
+				<div class="contact-meta reveal">
+					<p>Email: <a href="mailto:mohammedzubairomar@gmail.com">mohammedzubairomar@gmail.com</a></p>
+					<p>Location: Johannesburg, South Africa</p>
+				</div>
+
+				<div class="social-row reveal">
+					<a href="https://www.linkedin.com/in/mzubairomar/"><span class="fab fa-linkedin"></span> LinkedIn</a>
+					<a href="https://github.com/MohammedZubairOmar/PortfolioProjects"><span class="fab fa-github"></span> GitHub</a>
+				</div>
+
+				<div class="actions-row reveal" style="justify-content: center;">
+					<a href="mailto:mohammedzubairomar@gmail.com" class="btn-ribbon">Send a Message</a>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer id="site-footer">
+		<p>&copy; 2026 Mohammed Zubair Omar</p>
+		<ul class="footer-links">
+			<li><a href="#about">About</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#credentials">Credentials</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</footer>
+
+	<script src="assets/js/main.js"></script>
+
+</body>
 </html>
