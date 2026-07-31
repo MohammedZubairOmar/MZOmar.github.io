@@ -246,8 +246,9 @@ body.nav-open #nav-overlay{ opacity: 1; visibility: visible; }
 
 .chapter-hero{ --tint: rgba(99,132,255,0.14); align-items: center; text-align: center; }
 .chapter-about{ --tint: rgba(94,255,214,0.10); }
+.chapter-experience{ --tint: rgba(86,180,255,0.12); }
 .chapter-skills{ --tint: rgba(178,120,255,0.12); }
-.chapter-certifications{ --tint: rgba(255,180,90,0.12); }
+.chapter-credentials{ --tint: rgba(255,180,90,0.12); }
 .chapter-projects{ --tint: rgba(255,120,150,0.10); }
 .chapter-contact{ --tint: rgba(221,250,92,0.16); align-items: center; text-align: center; }
 
@@ -378,6 +379,53 @@ body.nav-open #nav-overlay{ opacity: 1; visibility: visible; }
 	.about-grid{ grid-template-columns: 1fr; }
 	.about-photo{ max-width: 220px; }
 }
+
+/* Experience timeline */
+.timeline{ margin-top: 1rem; max-width: 780px; }
+.timeline-item{
+	position: relative;
+	padding-left: 2.2rem;
+	padding-bottom: 2.75rem;
+	margin-left: 6px;
+	border-left: 1px solid var(--line);
+}
+.timeline-item:last-child{ padding-bottom: 0; border-left-color: transparent; }
+.timeline-item::before{
+	content: '';
+	position: absolute;
+	left: -6px;
+	top: 0.3rem;
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background: var(--accent);
+	box-shadow: 0 0 0 4px var(--bg);
+}
+.timeline-role{
+	font-family: var(--serif);
+	font-size: 1.35rem;
+	text-transform: uppercase;
+	letter-spacing: 0.01em;
+	color: var(--fg);
+	margin: 0 0 0.4rem;
+}
+.timeline-meta{
+	font-size: 0.8rem;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--accent);
+	margin: 0 0 1rem;
+}
+.timeline-item ul{ margin: 0; }
+.timeline-item li{
+	position: relative;
+	padding-left: 1.1rem;
+	color: var(--fg-dim);
+	font-size: 0.95rem;
+	margin-bottom: 0.55rem;
+}
+.timeline-item li::before{ content: '\2013'; position: absolute; left: 0; color: var(--fg-faint); }
+.timeline-item li:last-child{ margin-bottom: 0; }
 
 /* Skills */
 .skill-group{ margin-bottom: 2.5rem; }
