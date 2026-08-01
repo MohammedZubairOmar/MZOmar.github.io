@@ -326,6 +326,17 @@ body.nav-open #nav-overlay{ opacity: 1; visibility: visible; }
 	min-height: 1.3em;
 }
 .division-copy p{ color: var(--fg-dim); font-size: 0.92rem; max-width: 46ch; margin: 0; }
+.division-copy .view-link{
+	display: inline-block;
+	margin-top: 1rem;
+	font-size: 0.82rem;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: var(--accent);
+	border-bottom: 1px solid transparent;
+	transition: border-color 0.2s ease;
+}
+.division-copy .view-link:hover{ border-color: var(--accent); }
 
 @media (max-width: 800px){
 	.division-grid{ grid-template-columns: 1fr; }
