@@ -279,12 +279,14 @@
 
 		function resize() {
 			var w = hero.clientWidth, h = hero.clientHeight;
+			if (!w || !h) return;
 			renderer.setSize(w, h, false);
 			camera.aspect = w / h;
 			camera.updateProjectionMatrix();
 		}
 		resize();
 		window.addEventListener('resize', resize);
+		if ('ResizeObserver' in window) new ResizeObserver(resize).observe(hero);
 
 		var clock = new THREE.Clock();
 		var visible = true;
@@ -429,12 +431,14 @@
 
 		function resize() {
 			var w = stage.clientWidth, h = stage.clientHeight;
+			if (!w || !h) return;
 			renderer.setSize(w, h, false);
 			camera.aspect = w / h;
 			camera.updateProjectionMatrix();
 		}
 		resize();
 		window.addEventListener('resize', resize);
+		if ('ResizeObserver' in window) new ResizeObserver(resize).observe(stage);
 
 		var clock = new THREE.Clock();
 		var visible = true;
