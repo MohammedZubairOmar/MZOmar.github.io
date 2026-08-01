@@ -429,11 +429,16 @@
 		window.__setDivisionScene = setScene;
 		setScene(divisions[0].scene);
 
+		/* .division-stage is fixed at CSS aspect-ratio 16/10 — derive height from that
+		   ratio directly rather than trusting clientHeight, which can still report a
+		   stale value on some browsers before the aspect-ratio box has settled. */
+		var STAGE_ASPECT = 16 / 10;
 		function resize() {
-			var w = stage.clientWidth, h = stage.clientHeight;
-			if (!w || !h) return;
+			var w = stage.clientWidth;
+			if (!w) return;
+			var h = w / STAGE_ASPECT;
 			renderer.setSize(w, h, false);
-			camera.aspect = w / h;
+			camera.aspect = STAGE_ASPECT;
 			camera.updateProjectionMatrix();
 		}
 		resize();
